@@ -1,0 +1,16 @@
+mul2 ALU
+add6 ALU
+add2 ALU
+add4 ALU
+store13 MEM
+load6 MEM
+mul3 ALU
+mul1 ALU
+load7 MEM
+load10 MEM
+load4 MEM
+load9 MEM
+load3 MEM
+mul0 ALU
+load8 MEM
+load5 MEM

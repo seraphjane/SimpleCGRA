@@ -1,0 +1,64 @@
+CGRA0.__io0 DUMMY DUMMY inputs in0 outputs out0
+CGRA0.__io1 DUMMY DUMMY inputs in0 outputs out0
+CGRA0.__io2 DUMMY DUMMY inputs in0 outputs out0
+CGRA0.__io3 DUMMY DUMMY inputs in0 outputs out0
+CGRA0.__mem0 DUMMY DUMMY inputs in0 outputs out0
+CGRA0.__mem1 DUMMY DUMMY inputs in0 outputs out0
+CGRA0.__mem2 DUMMY DUMMY inputs in0 outputs out0
+CGRA0.__mem3 DUMMY DUMMY inputs in0 outputs out0
+CGRA0.__PE_0_0 DUMMY DUMMY inputs in0 outputs out0
+CGRA0.__PE_0_1 DUMMY DUMMY inputs in0 outputs out0
+CGRA0.__PE_0_2 DUMMY DUMMY inputs in0 outputs out0
+CGRA0.__PE_0_3 DUMMY DUMMY inputs in0 outputs out0
+CGRA0.__PE_1_0 DUMMY DUMMY inputs in0 outputs out0
+CGRA0.__PE_1_1 DUMMY DUMMY inputs in0 outputs out0
+CGRA0.__PE_1_2 DUMMY DUMMY inputs in0 outputs out0
+CGRA0.__PE_1_3 DUMMY DUMMY inputs in0 outputs out0
+CGRA0.__PE_2_0 DUMMY DUMMY inputs in0 outputs out0
+CGRA0.__PE_2_1 DUMMY DUMMY inputs in0 outputs out0
+CGRA0.__PE_2_2 DUMMY DUMMY inputs in0 outputs out0
+CGRA0.__PE_2_3 DUMMY DUMMY inputs in0 outputs out0
+CGRA0.__PE_3_0 DUMMY DUMMY inputs in0 outputs out0
+CGRA0.__PE_3_1 DUMMY DUMMY inputs in0 outputs out0
+CGRA0.__PE_3_2 DUMMY DUMMY inputs in0 outputs out0
+CGRA0.__PE_3_3 DUMMY DUMMY inputs in0 outputs out0
+CGRA0.PE_0_0.ALU0 ALU ALU inputs in0 in1 in2 outputs out0
+CGRA0.PE_0_0.CONST0 CONST CONST inputs in0 outputs out0
+CGRA0.PE_0_1.ALU0 ALU ALU inputs in0 in1 in2 outputs out0
+CGRA0.PE_0_1.CONST0 CONST CONST inputs in0 outputs out0
+CGRA0.PE_0_2.ALU0 ALU ALU inputs in0 in1 in2 outputs out0
+CGRA0.PE_0_2.CONST0 CONST CONST inputs in0 outputs out0
+CGRA0.PE_0_3.ALU0 ALU ALU inputs in0 in1 in2 outputs out0
+CGRA0.PE_0_3.CONST0 CONST CONST inputs in0 outputs out0
+CGRA0.PE_1_0.ALU0 ALU ALU inputs in0 in1 in2 outputs out0
+CGRA0.PE_1_0.CONST0 CONST CONST inputs in0 outputs out0
+CGRA0.PE_1_1.ALU0 ALU ALU inputs in0 in1 in2 outputs out0
+CGRA0.PE_1_1.CONST0 CONST CONST inputs in0 outputs out0
+CGRA0.PE_1_2.ALU0 ALU ALU inputs in0 in1 in2 outputs out0
+CGRA0.PE_1_2.CONST0 CONST CONST inputs in0 outputs out0
+CGRA0.PE_1_3.ALU0 ALU ALU inputs in0 in1 in2 outputs out0
+CGRA0.PE_1_3.CONST0 CONST CONST inputs in0 outputs out0
+CGRA0.PE_2_0.ALU0 ALU ALU inputs in0 in1 in2 outputs out0
+CGRA0.PE_2_0.CONST0 CONST CONST inputs in0 outputs out0
+CGRA0.PE_2_1.ALU0 ALU ALU inputs in0 in1 in2 outputs out0
+CGRA0.PE_2_1.CONST0 CONST CONST inputs in0 outputs out0
+CGRA0.PE_2_2.ALU0 ALU ALU inputs in0 in1 in2 outputs out0
+CGRA0.PE_2_2.CONST0 CONST CONST inputs in0 outputs out0
+CGRA0.PE_2_3.ALU0 ALU ALU inputs in0 in1 in2 outputs out0
+CGRA0.PE_2_3.CONST0 CONST CONST inputs in0 outputs out0
+CGRA0.PE_3_0.ALU0 ALU ALU inputs in0 in1 in2 outputs out0
+CGRA0.PE_3_0.CONST0 CONST CONST inputs in0 outputs out0
+CGRA0.PE_3_1.ALU0 ALU ALU inputs in0 in1 in2 outputs out0
+CGRA0.PE_3_1.CONST0 CONST CONST inputs in0 outputs out0
+CGRA0.PE_3_2.ALU0 ALU ALU inputs in0 in1 in2 outputs out0
+CGRA0.PE_3_2.CONST0 CONST CONST inputs in0 outputs out0
+CGRA0.PE_3_3.ALU0 ALU ALU inputs in0 in1 in2 outputs out0
+CGRA0.PE_3_3.CONST0 CONST CONST inputs in0 outputs out0
+CGRA0.mem0.MEM0 MEM MEM inputs in0 in1 in2 outputs out0
+CGRA0.mem1.MEM0 MEM MEM inputs in0 in1 in2 outputs out0
+CGRA0.mem2.MEM0 MEM MEM inputs in0 in1 in2 outputs out0
+CGRA0.mem3.MEM0 MEM MEM inputs in0 in1 in2 outputs out0
+CGRA0.io0.IO0 IO IO inputs in0 outputs out0
+CGRA0.io1.IO0 IO IO inputs in0 outputs out0
+CGRA0.io2.IO0 IO IO inputs in0 outputs out0
+CGRA0.io3.IO0 IO IO inputs in0 outputs out0

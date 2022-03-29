@@ -1,0 +1,16 @@
+input_constint4 IO
+mul0 ALU
+mul2 ALU
+input_constint7 IO
+add4 ALU
+add7 ALU
+mul3 ALU
+add6 ALU
+load3 MEM
+input_constint5 IO
+load6 MEM
+mul1 ALU
+input_constint9 IO
+load4 MEM
+add5 ALU
+load5 MEM

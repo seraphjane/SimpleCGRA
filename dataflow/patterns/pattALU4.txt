@@ -1,0 +1,18 @@
+vertex in0
+    attr compat str ALU.in0
+vertex in1
+    attr compat str ALU.in1
+vertex alu
+    attr compat str ALU
+vertex out0
+    attr compat str ALU.out0
+vertex const
+    attr compat str CONST
+vertex const_out0
+    attr compat str CONST.out0
+edge in0 alu
+edge in1 alu
+edge alu out0
+edge out0 in0
+edge const const_out0
+edge const_out0 in1

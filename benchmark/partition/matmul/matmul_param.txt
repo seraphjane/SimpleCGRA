@@ -1,0 +1,8 @@
+{
+    "MAXNUM": 4,
+    "NUMSTATUSES": 32,
+    "NJOBS": 32,
+    "MAXOPS": 0.9,
+    "MAXEDGES": 0.6,
+    "FULLNUM": 2
+}

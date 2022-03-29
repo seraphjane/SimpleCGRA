@@ -1,0 +1,1089 @@
+{
+    "Function": {
+        "__INPUT__": {
+            "input": [
+                "in0"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__OUTPUT__": {
+            "input": [
+                "in0"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__IO__": {
+            "input": [
+                "in0"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__ADD__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__SUB__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__MUL__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__ACC__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__AND__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__OR__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__XOR__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__NOT__": {
+            "input": [
+                "in0"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__LSHIFT__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__RSHIFT__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__MAD__": {
+            "input": [
+                "in0",
+                "in1",
+                "in2"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__CONST__": {
+            "input": [
+                "in0"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__REG__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__MEM__": {
+            "input": [
+                "in0",
+                "in1",
+                "in2"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__EQUAL__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__GREATER__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__LESS__": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__BRANCH2__": {
+            "input": [
+                "in0"
+            ],
+            "output": [
+                "out0",
+                "out1"
+            ],
+            "width": "32"
+        },
+        "__BRANCH3__": {
+            "input": [
+                "in0"
+            ],
+            "output": [
+                "out0",
+                "out1",
+                "out2"
+            ],
+            "width": "32"
+        },
+        "__BRANCH4__": {
+            "input": [
+                "in0"
+            ],
+            "output": [
+                "out0",
+                "out1",
+                "out2",
+                "out3"
+            ],
+            "width": "32"
+        },
+        "__JOIN2__": {
+            "input": [
+                "in0",
+                "in1",
+                "select"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__JOIN3__": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "select"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__JOIN4__": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3",
+                "select"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        },
+        "__DUMMY__": {
+            "input": [
+                "in0"
+            ],
+            "output": [
+                "out0"
+            ],
+            "width": "32"
+        }
+    },
+    "Unit": {
+        "INPUT": {
+            "input": [
+                "in0"
+            ],
+            "output": [
+                "out0"
+            ],
+            "function": {
+                "FUNC_INPUT0": "__INPUT__"
+            },
+            "pattern": {
+                "PATN_INPUT0": {
+                    "unit": [
+                        "FUNC_INPUT0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_INPUT0.in0",
+                        "out0": "FUNC_INPUT0.out0"
+                    },
+                    "connection": []
+                }
+            },
+            "compat": {}
+        },
+        "OUTPUT": {
+            "input": [
+                "in0"
+            ],
+            "output": [
+                "out0"
+            ],
+            "function": {
+                "FUNC_OUTPUT0": "__OUTPUT__"
+            },
+            "pattern": {
+                "PATN_OUTPUT0": {
+                    "unit": [
+                        "FUNC_OUTPUT0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_OUTPUT0.in0",
+                        "out0": "FUNC_OUTPUT0.out0"
+                    },
+                    "connection": []
+                }
+            },
+            "compat": {}
+        },
+        "IO": {
+            "input": [
+                "in0"
+            ],
+            "output": [
+                "out0"
+            ],
+            "function": {
+                "FUNC_IO0": "__IO__"
+            },
+            "pattern": {
+                "PATN_IO0": {
+                    "unit": [
+                        "FUNC_IO0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_IO0.in0",
+                        "out0": "FUNC_IO0.out0"
+                    },
+                    "connection": []
+                }
+            },
+            "compat": {}
+        },
+        "CONST": {
+            "input": [
+                "in0"
+            ],
+            "output": [
+                "out0"
+            ],
+            "function": {
+                "FUNC_CONST0": "__CONST__"
+            },
+            "pattern": {
+                "PATN_CONST0": {
+                    "unit": [
+                        "FUNC_CONST0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_CONST0.in0",
+                        "out0": "FUNC_CONST0.out0"
+                    },
+                    "connection": []
+                }
+            },
+            "compat": {}
+        },
+        "REG": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "function": {
+                "FUNC_REG0": "__REG__"
+            },
+            "pattern": {
+                "PATN_REG0": {
+                    "unit": [
+                        "FUNC_REG0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_REG0.in0",
+                        "in1": "FUNC_REG0.in1",
+                        "out0": "FUNC_REG0.out0"
+                    },
+                    "connection": []
+                }
+            },
+            "compat": {}
+        },
+        "MEM": {
+            "input": [
+                "in0",
+                "in1",
+                "in2"
+            ],
+            "output": [
+                "out0"
+            ],
+            "function": {
+                "FUNC_MEM0": "__MEM__"
+            },
+            "pattern": {
+                "PATN_MEM0": {
+                    "unit": [
+                        "FUNC_MEM0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_MEM0.in0",
+                        "in1": "FUNC_MEM0.in1",
+                        "in2": "FUNC_MEM0.in2",
+                        "out0": "FUNC_MEM0.out0"
+                    },
+                    "connection": []
+                }
+            },
+            "compat": {}
+        },
+        "ALU": {
+            "input": [
+                "in0",
+                "in1",
+                "in2"
+            ],
+            "output": [
+                "out0"
+            ],
+            "function": {
+                "FUNC_ADD0": "__ADD__",
+                "FUNC_SUB0": "__SUB__",
+                "FUNC_MUL0": "__MUL__",
+                "FUNC_AND0": "__AND__",
+                "FUNC_OR0": "__OR__",
+                "FUNC_XOR0": "__XOR__",
+                "FUNC_LSHIFT0": "__LSHIFT__",
+                "FUNC_RSHIFT0": "__RSHIFT__",
+                "FUNC_SEL0": "__JOIN2__"
+            },
+            "pattern": {
+                "PATN_SEL0": {
+                    "unit": [
+                        "FUNC_SEL0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_SEL0.in0",
+                        "in1": "FUNC_SEL0.in1",
+                        "in2": "FUNC_SEL0.select",
+                        "out0": "FUNC_SEL0.out0"
+                    },
+                    "connection": []
+                },
+                "PATN_ADD0": {
+                    "unit": [
+                        "FUNC_ADD0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_ADD0.in0",
+                        "in1": "FUNC_ADD0.in1",
+                        "out0": "FUNC_ADD0.out0"
+                    },
+                    "connection": []
+                },
+                "PATN_SUB0": {
+                    "unit": [
+                        "FUNC_SUB0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_SUB0.in0",
+                        "in1": "FUNC_SUB0.in1",
+                        "out0": "FUNC_SUB0.out0"
+                    },
+                    "connection": []
+                },
+                "PATN_MUL0": {
+                    "unit": [
+                        "FUNC_MUL0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_MUL0.in0",
+                        "in1": "FUNC_MUL0.in1",
+                        "out0": "FUNC_MUL0.out0"
+                    },
+                    "connection": []
+                },
+                "PATN_AND0": {
+                    "unit": [
+                        "FUNC_AND0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_AND0.in0",
+                        "in1": "FUNC_AND0.in1",
+                        "out0": "FUNC_AND0.out0"
+                    },
+                    "connection": []
+                },
+                "PATN_OR0": {
+                    "unit": [
+                        "FUNC_OR0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_OR0.in0",
+                        "in1": "FUNC_OR0.in1",
+                        "out0": "FUNC_OR0.out0"
+                    },
+                    "connection": []
+                },
+                "PATN_XOR0": {
+                    "unit": [
+                        "FUNC_XOR0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_XOR0.in0",
+                        "in1": "FUNC_XOR0.in1",
+                        "out0": "FUNC_XOR0.out0"
+                    },
+                    "connection": []
+                },
+                "PATN_LSHIFT0": {
+                    "unit": [
+                        "FUNC_LSHIFT0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_LSHIFT0.in0",
+                        "in1": "FUNC_LSHIFT0.in1",
+                        "out0": "FUNC_LSHIFT0.out0"
+                    },
+                    "connection": []
+                },
+                "PATN_RSHIFT0": {
+                    "unit": [
+                        "FUNC_RSHIFT0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_RSHIFT0.in0",
+                        "in1": "FUNC_RSHIFT0.in1",
+                        "out0": "FUNC_RSHIFT0.out0"
+                    },
+                    "connection": []
+                }
+            },
+            "compat": {}
+        },
+        "DUMMY": {
+            "input": [
+                "in0"
+            ],
+            "output": [
+                "out0"
+            ],
+            "function": {
+                "FUNC_DUMMY0": "__DUMMY__"
+            },
+            "pattern": {
+                "PATN_DUMMY0": {
+                    "unit": [
+                        "FUNC_DUMMY0"
+                    ],
+                    "port": {
+                        "in0": "FUNC_DUMMY0.in0",
+                        "out0": "FUNC_DUMMY0.out0"
+                    },
+                    "connection": []
+                }
+            },
+            "compat": {}
+        }
+    },
+    "Switch": {
+        "FULLYCONN_2X1": {
+            "input": [
+                "in0",
+                "in1"
+            ],
+            "output": [
+                "out0"
+            ],
+            "required": [
+                "in0->out0",
+                "in1->out0"
+            ],
+            "graph": ""
+        },
+        "FULLYCONN_6X1": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3",
+                "in4",
+                "in5"
+            ],
+            "output": [
+                "out0"
+            ],
+            "required": [
+                "in0->out0",
+                "in1->out0",
+                "in2->out0",
+                "in3->out0",
+                "in4->out0",
+                "in5->out0"
+            ],
+            "graph": ""
+        },
+        "FULLYCONN_10X1": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3",
+                "in4",
+                "in5",
+                "in6",
+                "in7",
+                "in8",
+                "in9"
+            ],
+            "output": [
+                "out0"
+            ],
+            "required": [
+                "in0->out0",
+                "in1->out0",
+                "in2->out0",
+                "in3->out0",
+                "in4->out0",
+                "in5->out0",
+                "in6->out0",
+                "in7->out0",
+                "in8->out0",
+                "in9->out0"
+            ],
+            "graph": ""
+        }
+    },
+    "Module": {
+        "PE": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3",
+                "in4",
+                "in5",
+                "in6",
+                "in7"
+            ],
+            "output": [
+                "out0"
+            ],
+            "module": {},
+            "element": {
+                "ALU0": "ALU",
+                "CONST0": "CONST"
+            },
+            "switch": {
+                "SW10X1_in0": "FULLYCONN_10X1",
+                "SW10X1_in1": "FULLYCONN_10X1",
+                "SW10X1_in2": "FULLYCONN_10X1",
+                "SW10X1_out0": "FULLYCONN_10X1"
+            },
+            "connection": [
+                "in0->SW10X1_in0.in0",
+                "in1->SW10X1_in0.in1",
+                "in2->SW10X1_in0.in2",
+                "in3->SW10X1_in0.in3",
+                "in4->SW10X1_in0.in4",
+                "in5->SW10X1_in0.in5",
+                "in6->SW10X1_in0.in6",
+                "in7->SW10X1_in0.in7",
+                "ALU0.out0->SW10X1_in0.in8",
+                "CONST0.out0->SW10X1_in0.in9",
+                "SW10X1_in0.out0->ALU0.in0",
+                "in0->SW10X1_in1.in0",
+                "in1->SW10X1_in1.in1",
+                "in2->SW10X1_in1.in2",
+                "in3->SW10X1_in1.in3",
+                "in4->SW10X1_in1.in4",
+                "in5->SW10X1_in1.in5",
+                "in6->SW10X1_in1.in6",
+                "in7->SW10X1_in1.in7",
+                "ALU0.out0->SW10X1_in1.in8",
+                "CONST0.out0->SW10X1_in1.in9",
+                "SW10X1_in1.out0->ALU0.in1",
+                "in0->SW10X1_in2.in0",
+                "in1->SW10X1_in2.in1",
+                "in2->SW10X1_in2.in2",
+                "in3->SW10X1_in2.in3",
+                "in4->SW10X1_in2.in4",
+                "in5->SW10X1_in2.in5",
+                "in6->SW10X1_in2.in6",
+                "in7->SW10X1_in2.in7",
+                "ALU0.out0->SW10X1_in2.in8",
+                "CONST0.out0->SW10X1_in2.in9",
+                "SW10X1_in2.out0->ALU0.in2",
+                "in0->SW10X1_out0.in0",
+                "in1->SW10X1_out0.in1",
+                "in2->SW10X1_out0.in2",
+                "in3->SW10X1_out0.in3",
+                "in4->SW10X1_out0.in4",
+                "in5->SW10X1_out0.in5",
+                "in6->SW10X1_out0.in6",
+                "in7->SW10X1_out0.in7",
+                "ALU0.out0->SW10X1_out0.in8",
+                "SW10X1_out0.out0->out0"
+            ]
+        },
+        "MEMORY": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3",
+                "in4",
+                "in5"
+            ],
+            "output": [
+                "out0"
+            ],
+            "module": {},
+            "element": {
+                "MEM0": "MEM"
+            },
+            "switch": {
+                "SW6X1_addr": "FULLYCONN_6X1",
+                "SW6X1_din": "FULLYCONN_6X1",
+                "SW6X1_ctr": "FULLYCONN_6X1",
+                "SW2X1_out0": "FULLYCONN_2X1"
+            },
+            "connection": [
+                "in0->SW6X1_addr.in0",
+                "in1->SW6X1_addr.in1",
+                "in2->SW6X1_addr.in2",
+                "in3->SW6X1_addr.in3",
+                "in4->SW6X1_addr.in4",
+                "in5->SW6X1_addr.in5",
+                "SW6X1_addr.out0->MEM0.in0",
+                "in0->SW6X1_din.in0",
+                "in1->SW6X1_din.in1",
+                "in2->SW6X1_din.in2",
+                "in3->SW6X1_din.in3",
+                "in4->SW6X1_din.in4",
+                "in5->SW6X1_din.in5",
+                "SW6X1_din.out0->MEM0.in1",
+                "in0->SW6X1_ctr.in0",
+                "in1->SW6X1_ctr.in1",
+                "in2->SW6X1_ctr.in2",
+                "in3->SW6X1_ctr.in3",
+                "in4->SW6X1_ctr.in4",
+                "in5->SW6X1_ctr.in5",
+                "SW6X1_ctr.out0->MEM0.in2",
+                "in5->SW2X1_out0.in0",
+                "MEM0.out0->SW2X1_out0.in1",
+                "SW2X1_out0.out0->out0"
+            ]
+        },
+        "INPAD": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3",
+                "in4",
+                "in5"
+            ],
+            "output": [
+                "out0"
+            ],
+            "module": {},
+            "element": {
+                "INPUT0": "INPUT"
+            },
+            "switch": {
+                "SW6X1_in0": "FULLYCONN_6X1",
+                "SW2X1_out0": "FULLYCONN_2X1"
+            },
+            "connection": [
+                "in0->SW6X1_in0.in0",
+                "in1->SW6X1_in0.in1",
+                "in2->SW6X1_in0.in2",
+                "in3->SW6X1_in0.in3",
+                "in4->SW6X1_in0.in4",
+                "in5->SW6X1_in0.in5",
+                "SW6X1_in0.out0->INPUT0.in0",
+                "in5->SW2X1_out0.in0",
+                "INPUT0.out0->SW2X1_out0.in1",
+                "SW2X1_out0.out0->out0"
+            ]
+        },
+        "OUTPAD": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3",
+                "in4",
+                "in5"
+            ],
+            "output": [
+                "out0"
+            ],
+            "module": {},
+            "element": {
+                "OUTPUT0": "OUTPUT"
+            },
+            "switch": {
+                "SW6X1_in0": "FULLYCONN_6X1",
+                "SW2X1_out0": "FULLYCONN_2X1"
+            },
+            "connection": [
+                "in0->SW6X1_in0.in0",
+                "in1->SW6X1_in0.in1",
+                "in2->SW6X1_in0.in2",
+                "in3->SW6X1_in0.in3",
+                "in4->SW6X1_in0.in4",
+                "in5->SW6X1_in0.in4",
+                "SW6X1_in0.out0->OUTPUT0.in0",
+                "in5->SW2X1_out0.in0",
+                "OUTPUT0.out0->SW2X1_out0.in1",
+                "SW2X1_out0.out0->out0"
+            ]
+        },
+        "IOPAD": {
+            "input": [
+                "in0",
+                "in1",
+                "in2",
+                "in3",
+                "in4",
+                "in5"
+            ],
+            "output": [
+                "out0"
+            ],
+            "module": {},
+            "element": {
+                "IO0": "IO"
+            },
+            "switch": {
+                "SW6X1_in0": "FULLYCONN_6X1",
+                "SW2X1_out0": "FULLYCONN_2X1"
+            },
+            "connection": [
+                "in0->SW6X1_in0.in0",
+                "in1->SW6X1_in0.in1",
+                "in2->SW6X1_in0.in2",
+                "in3->SW6X1_in0.in3",
+                "in4->SW6X1_in0.in4",
+                "in5->SW6X1_in0.in5",
+                "SW6X1_in0.out0->IO0.in0",
+                "in5->SW2X1_out0.in0",
+                "IO0.out0->SW2X1_out0.in1",
+                "SW2X1_out0.out0->out0"
+            ]
+        },
+        "CGRA": {
+            "input": [],
+            "output": [],
+            "module": {
+                "PE_0_0": "PE",
+                "PE_0_1": "PE",
+                "PE_0_2": "PE",
+                "PE_0_3": "PE",
+                "PE_1_0": "PE",
+                "PE_1_1": "PE",
+                "PE_1_2": "PE",
+                "PE_1_3": "PE",
+                "PE_2_0": "PE",
+                "PE_2_1": "PE",
+                "PE_2_2": "PE",
+                "PE_2_3": "PE",
+                "PE_3_0": "PE",
+                "PE_3_1": "PE",
+                "PE_3_2": "PE",
+                "PE_3_3": "PE",
+                "mem0": "MEMORY",
+                "mem1": "MEMORY",
+                "mem2": "MEMORY",
+                "mem3": "MEMORY",
+                "io0": "IOPAD",
+                "io1": "IOPAD",
+                "io2": "IOPAD",
+                "io3": "IOPAD"
+            },
+            "element": {
+                "__io0": "DUMMY",
+                "__io1": "DUMMY",
+                "__io2": "DUMMY",
+                "__io3": "DUMMY",
+                "__mem0": "DUMMY",
+                "__mem1": "DUMMY",
+                "__mem2": "DUMMY",
+                "__mem3": "DUMMY",
+                "__PE_0_0": "DUMMY",
+                "__PE_0_1": "DUMMY",
+                "__PE_0_2": "DUMMY",
+                "__PE_0_3": "DUMMY",
+                "__PE_1_0": "DUMMY",
+                "__PE_1_1": "DUMMY",
+                "__PE_1_2": "DUMMY",
+                "__PE_1_3": "DUMMY",
+                "__PE_2_0": "DUMMY",
+                "__PE_2_1": "DUMMY",
+                "__PE_2_2": "DUMMY",
+                "__PE_2_3": "DUMMY",
+                "__PE_3_0": "DUMMY",
+                "__PE_3_1": "DUMMY",
+                "__PE_3_2": "DUMMY",
+                "__PE_3_3": "DUMMY"
+            },
+            "switch": {},
+            "connection": [
+                "io0.out0->PE_0_0.in4",
+                "io0.out0->PE_1_0.in4",
+                "io0.out0->PE_2_0.in4",
+                "io0.out0->PE_3_0.in4",
+                "io1.out0->PE_0_1.in4",
+                "io1.out0->PE_1_1.in4",
+                "io1.out0->PE_2_1.in4",
+                "io1.out0->PE_3_1.in4",
+                "io2.out0->PE_0_2.in4",
+                "io2.out0->PE_1_2.in4",
+                "io2.out0->PE_2_2.in4",
+                "io2.out0->PE_3_2.in4",
+                "io3.out0->PE_0_3.in4",
+                "io3.out0->PE_1_3.in4",
+                "io3.out0->PE_2_3.in4",
+                "io3.out0->PE_3_3.in4",
+                "PE_0_0.out0->io0.in0",
+                "PE_1_0.out0->io0.in1",
+                "PE_2_0.out0->io0.in2",
+                "PE_3_0.out0->io0.in3",
+                "PE_0_1.out0->io1.in0",
+                "PE_1_1.out0->io1.in1",
+                "PE_2_1.out0->io1.in2",
+                "PE_3_1.out0->io1.in3",
+                "PE_0_2.out0->io2.in0",
+                "PE_1_2.out0->io2.in1",
+                "PE_2_2.out0->io2.in2",
+                "PE_3_2.out0->io2.in3",
+                "PE_0_3.out0->io3.in0",
+                "PE_1_3.out0->io3.in1",
+                "PE_2_3.out0->io3.in2",
+                "PE_3_3.out0->io3.in3",
+                "PE_0_0.out0->mem0.in0",
+                "PE_0_1.out0->mem0.in1",
+                "PE_0_2.out0->mem0.in2",
+                "PE_0_3.out0->mem0.in3",
+                "PE_1_0.out0->mem1.in0",
+                "PE_1_1.out0->mem1.in1",
+                "PE_1_2.out0->mem1.in2",
+                "PE_1_3.out0->mem1.in3",
+                "PE_2_0.out0->mem2.in0",
+                "PE_2_1.out0->mem2.in1",
+                "PE_2_2.out0->mem2.in2",
+                "PE_2_3.out0->mem2.in3",
+                "PE_3_0.out0->mem3.in0",
+                "PE_3_1.out0->mem3.in1",
+                "PE_3_2.out0->mem3.in2",
+                "PE_3_3.out0->mem3.in3",
+                "mem0.out0->PE_0_0.in5",
+                "mem0.out0->PE_0_1.in5",
+                "mem0.out0->PE_0_2.in5",
+                "mem0.out0->PE_0_3.in5",
+                "mem1.out0->PE_1_0.in5",
+                "mem1.out0->PE_1_1.in5",
+                "mem1.out0->PE_1_2.in5",
+                "mem1.out0->PE_1_3.in5",
+                "mem2.out0->PE_2_0.in5",
+                "mem2.out0->PE_2_1.in5",
+                "mem2.out0->PE_2_2.in5",
+                "mem2.out0->PE_2_3.in5",
+                "mem3.out0->PE_3_0.in5",
+                "mem3.out0->PE_3_1.in5",
+                "mem3.out0->PE_3_2.in5",
+                "mem3.out0->PE_3_3.in5",
+                "PE_0_0.out0->PE_0_1.in0",
+                "PE_0_1.out0->PE_0_2.in0",
+                "PE_0_2.out0->PE_0_3.in0",
+                "PE_0_3.out0->PE_0_0.in0",
+                "PE_1_0.out0->PE_1_1.in0",
+                "PE_1_1.out0->PE_1_2.in0",
+                "PE_1_2.out0->PE_1_3.in0",
+                "PE_1_3.out0->PE_1_0.in0",
+                "PE_2_0.out0->PE_2_1.in0",
+                "PE_2_1.out0->PE_2_2.in0",
+                "PE_2_2.out0->PE_2_3.in0",
+                "PE_2_3.out0->PE_2_0.in0",
+                "PE_3_0.out0->PE_3_1.in0",
+                "PE_3_1.out0->PE_3_2.in0",
+                "PE_3_2.out0->PE_3_3.in0",
+                "PE_3_3.out0->PE_3_0.in0",
+                "PE_0_1.out0->PE_0_0.in1",
+                "PE_0_2.out0->PE_0_1.in1",
+                "PE_0_3.out0->PE_0_2.in1",
+                "PE_0_0.out0->PE_0_3.in1",
+                "PE_1_1.out0->PE_1_0.in1",
+                "PE_1_2.out0->PE_1_1.in1",
+                "PE_1_3.out0->PE_1_2.in1",
+                "PE_1_0.out0->PE_1_3.in1",
+                "PE_2_1.out0->PE_2_0.in1",
+                "PE_2_2.out0->PE_2_1.in1",
+                "PE_2_3.out0->PE_2_2.in1",
+                "PE_2_0.out0->PE_2_3.in1",
+                "PE_3_1.out0->PE_3_0.in1",
+                "PE_3_2.out0->PE_3_1.in1",
+                "PE_3_3.out0->PE_3_2.in1",
+                "PE_3_0.out0->PE_3_3.in1",
+                "PE_0_0.out0->PE_1_0.in2",
+                "PE_1_0.out0->PE_2_0.in2",
+                "PE_2_0.out0->PE_3_0.in2",
+                "PE_3_0.out0->PE_0_0.in2",
+                "PE_0_1.out0->PE_1_1.in2",
+                "PE_1_1.out0->PE_2_1.in2",
+                "PE_2_1.out0->PE_3_1.in2",
+                "PE_3_1.out0->PE_0_1.in2",
+                "PE_0_2.out0->PE_1_2.in2",
+                "PE_1_2.out0->PE_2_2.in2",
+                "PE_2_2.out0->PE_3_2.in2",
+                "PE_3_2.out0->PE_0_2.in2",
+                "PE_0_3.out0->PE_1_3.in2",
+                "PE_1_3.out0->PE_2_3.in2",
+                "PE_2_3.out0->PE_3_3.in2",
+                "PE_3_3.out0->PE_0_3.in2",
+                "PE_1_0.out0->PE_0_0.in3",
+                "PE_2_0.out0->PE_1_0.in3",
+                "PE_3_0.out0->PE_2_0.in3",
+                "PE_0_0.out0->PE_3_0.in3",
+                "PE_1_1.out0->PE_0_1.in3",
+                "PE_2_1.out0->PE_1_1.in3",
+                "PE_3_1.out0->PE_2_1.in3",
+                "PE_0_1.out0->PE_3_1.in3",
+                "PE_1_2.out0->PE_0_2.in3",
+                "PE_2_2.out0->PE_1_2.in3",
+                "PE_3_2.out0->PE_2_2.in3",
+                "PE_0_2.out0->PE_3_2.in3",
+                "PE_1_3.out0->PE_0_3.in3",
+                "PE_2_3.out0->PE_1_3.in3",
+                "PE_3_3.out0->PE_2_3.in3",
+                "PE_0_3.out0->PE_3_3.in3",
+                "__io0.out0->io0.in5",
+                "__io1.out0->io1.in5",
+                "__io2.out0->io2.in5",
+                "__io3.out0->io3.in5",
+                "__mem0.out0->mem0.in5",
+                "__mem1.out0->mem1.in5",
+                "__mem2.out0->mem2.in5",
+                "__mem3.out0->mem3.in5",
+                "__PE_0_0.out0->PE_0_0.in6",
+                "__PE_0_1.out0->PE_0_1.in6",
+                "__PE_0_2.out0->PE_0_2.in6",
+                "__PE_0_3.out0->PE_0_3.in6",
+                "__PE_1_0.out0->PE_1_0.in6",
+                "__PE_1_1.out0->PE_1_1.in6",
+                "__PE_1_2.out0->PE_1_2.in6",
+                "__PE_1_3.out0->PE_1_3.in6",
+                "__PE_2_0.out0->PE_2_0.in6",
+                "__PE_2_1.out0->PE_2_1.in6",
+                "__PE_2_2.out0->PE_2_2.in6",
+                "__PE_2_3.out0->PE_2_3.in6",
+                "__PE_3_0.out0->PE_3_0.in6",
+                "__PE_3_1.out0->PE_3_1.in6",
+                "__PE_3_2.out0->PE_3_2.in6",
+                "__PE_3_3.out0->PE_3_3.in6"
+            ]
+        },
+        "TOP": {
+            "input": [],
+            "output": [],
+            "module": {
+                "CGRA0": "CGRA"
+            },
+            "element": {},
+            "switch": {},
+            "connection": []
+        }
+    }
+}
