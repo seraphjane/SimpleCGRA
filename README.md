@@ -1,6 +1,8 @@
 # *SimpleCGRA*
 *SimpleCGRA*: An Open-Source Platform for Temporal-Mapping CGRAs
 
+We are still tidying the codes of SimpleCGRA. The codes of all modules are available. We will keep improving *SimpleCGRA*. 
+
 ## How to compile and run *SimpleCGRA*?
 
 >* Most modules of *SimpleCGRA* are written in Python. We test *SimpleCGRA* on *anaconda* and *python 3.7*.  
