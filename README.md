@@ -198,7 +198,7 @@ python3 ./test/pnr.py ./benchmark/${SET}/${BENCH}/${BENCH}_DFG.txt ./benchmark/$
 |fir2	|5	|5|
 |horner	|1	|1|
 |motion	|3	|2|
-|matmul	|7	7|
+|matmul	|7	|7|
 |matinv	|20	|20|
 
 ####  ExPRESS benchmarks, ADRES vs. HyCUBE, mapping time comparison
