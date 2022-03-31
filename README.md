@@ -3,7 +3,7 @@
 
 We are still tidying the codes of *SimpleCGRA*. The codes of all modules are available. We will keep improving *SimpleCGRA*. 
 
-## How to compile and run *SimpleCGRA*?
+## How to run *SimpleCGRA*?
 
 >* Most modules of *SimpleCGRA* are written in Python. We test *SimpleCGRA* on *anaconda* and *python 3.7*.  
 
@@ -26,6 +26,18 @@ python3 ./test/pnr.py ./benchmark/${SET}/${BENCH}/${BENCH}_DFG.txt ./benchmark/$
 
 >* Compilation is optional. It is needed if you want to use the front-end or use the C++ interface. 
 >>* You can compile *SimpleCGRA* by running "make". The front-end is tested in LLVM 11.  
+
+## Description about the code
+
+>* arch/: code about CGRA modeling
+>* benchmark/: CGRA-ME/ExPRESS/standard benchmarks
+>* common/: provides basic functions
+>* dataflow/: code about dataflow modeling
+>* mapping/: code about CGRA mapping (scheduling, placement, routing)
+>* test/: code about experiments
+>>* test/pnr.py: CGRA mapping
+>>* test/dse.py: design space exploration
+>>* test/dfgpart.py: dataflow graph partition
 
 ## Experiments
 
